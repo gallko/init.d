@@ -1,0 +1,10 @@
+config inetd 'telnetd'
+	option enable '1'
+	option port '23'
+	option BannerFile '/etc/banner'
+
+config inetd 'ftpd'
+	option enable '1'
+	option port '21'
+	option directory '/tmp
+
